@@ -21,13 +21,13 @@ usage: train_CRNN.py [-h] [-class CLASSES_NUM] [-gid GPU_INDEX]
                      [--remix] [--all] [--CRNNx2] [--debug]
 
 optional arguments:
-  -class, classes number, default:20
-  -gid, gpu index, default:0
-  -bs, batch size, default:100
-  -lr, learn rate, default:0.0001
-  -val, valid per epoch, default:1
-  -stop, early stop, default:20
-  -rs random state, default:0
+  -class, classes number (default:20)
+  -gid, gpu index (default:0)
+  -bs, batch size (default:100)
+  -lr, learn rate (default:0.0001)
+  -val, valid per epoch (default:1)
+  -stop, early stop (default:20)
+  -rs random state (default:0)
   --origin, use original audio to training
   --vocal, use separated vocal audio to training
   --remix, use remix audio to training
