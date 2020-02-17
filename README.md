@@ -14,7 +14,7 @@ Requires following packages:
 
 ### Usage
 #### train_CRNN.py
-
+```
 
 optional arguments:
   -class, classes number, default:20
