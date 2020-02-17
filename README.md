@@ -35,3 +35,4 @@ optional arguments:
   --CRNNx2, use CRNNx2 model to training
   --debug, debug mode
 ```
+### data_arrangement and CRNNM: Will be updated soon
