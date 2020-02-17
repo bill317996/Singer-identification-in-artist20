@@ -15,6 +15,10 @@ Requires following packages:
 ### Usage
 #### train_CRNN.py
 ```
+usage: train_CRNN.py [-h] [-class CLASSES_NUM] [-gid GPU_INDEX]
+                     [-bs BATCH_SIZE] [-lr LEARN_RATE] [-val VAL_NUM]  
+                     [-stop STOP_NUM] [-rs RANDOM_STATE] [--origin] [--vocal]
+                     [--remix] [--all] [--CRNNx2] [--debug]
 
 optional arguments:
   -class, classes number, default:20
