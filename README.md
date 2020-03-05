@@ -17,18 +17,15 @@ Requires following packages:
 
 ### Usage
 #### extract_fea.py
-    Extracting melspectrograms of artist20 
-    1. Origin: the original artist20, containing both vocals and accompaniments
-        `art_dir`: path to artist20
+Extracting melspectrograms of artist20 
+1. **Origin**: the original artist20, containing both vocals and accompaniments. `art_dir`: path to artist20
     
-    2. Vocal: the vocal-only artist20, separated by [open_unmix](https://github.com/sigsep/open-unmix-pytorch).
-        `art_dir`: path to pure vocals of artist20 (the folder structure should follow the artist20's)
+2. **Vocal**: the vocal-only artist20, separated by [open_unmix](https://github.com/sigsep/open-unmix-pytorch).`art_dir`: path to pure vocals of artist20 (the folder structure should follow the artist20's)
     
-    3. Accompaniment: the accompaniment-only artist20 (bass+drums+other), separated by [open_unmix](https://github.com/sigsep/open-unmix-pytorch).
-        `art_dir`: path to pure accompaniments of artis20 (the folder structure should follow the artist20's )
+3. **Accompaniment**: the accompaniment-only artist20 (bass+drums+other), separated by [open_unmix](https://github.com/sigsep/open-unmix-pytorch). `art_dir`: path to pure accompaniments of artis20 (the folder structure should follow the artist20's )
     
 #### extract_melody.py
-    extract the melody of vocals using [crepe](https://github.com/marl/crepe)
+extract the melody of vocals using [crepe](https://github.com/marl/crepe)
 #### train_CRNN.py
 ```
 usage: train_CRNN.py [-h] [-class CLASSES_NUM] [-gid GPU_INDEX]
