@@ -1,6 +1,8 @@
 # Singer-identification-in-artist20
 The source code of "Addressing the confounds of accompaniments in singer identification"
-- arxiv: 
+- arxiv: https://arxiv.org/abs/2002.06817
+
+### Pre-train model and predict_on_audio.py: Will be updated soon
 
 ### Dependencies
 
@@ -48,4 +50,4 @@ optional arguments:
   --CRNNx2, use CRNNx2 model to training
   --debug, debug mode
 ```
-### data_arrangement and CRNNM: Will be updated soon
+
