@@ -50,4 +50,7 @@ optional arguments:
   --CRNNx2, use CRNNx2 model to training
   --debug, debug mode
 ```
-
+#### pred_on_audio.py
+```
+python pred_on_audio.py your_song_path
+```
